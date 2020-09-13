@@ -1,7 +1,6 @@
 # PYTHON CHEATSHEET
-> *"When you arise in the morning, think of what a precious privilege it is to be alive - 
-> to breath, to think, to enjoy, to love."\
-> - Marcus Aurelius*
+> *"When you arise in the morning, think of what a precious privilege it is to be alive to breath, to think, to enjoy, to love."*
+> *- Marcus Aurelius*
 
 ## 1. LISTS []
 
