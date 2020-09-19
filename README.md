@@ -46,6 +46,30 @@
 * **Dictionary Functions:**
   * dict1 = {tuple1: 1}; uses a tuple as a key within a dictionary
 
+## 4. SETS {}
+
+* **Sets Methods:**
+  * set( args ) - creates a set
+  * add( arg1 ) - adds element to a set
+  * remove( arg1 ) - removes element, throws error if arg not found
+  * discard( arg1 ) - removes element, does not throw error if arg not found
+  * pop() - removes first element
+  * clear() - empties a set
+  * union() - combines 2 sets without dupes
+  * intersection() - returns dupes within 2 sets
+  * difference() - returns the difference in 2 sets
+  * symmetric_difference() - returns the unique elements in 2 sets
+  * update() - combines unique elements within 2 sets
+  * intersection_update() - returns a set of common elements
+  * difference_update() - removes commons elements on setA only
+  * symmetric_difference()
+  * symmetric_difference_update() - filters out the common elements from 2 sets, returns the 2 sets combined
+  * issubset() - checks if a set matches completely with the argument set
+  * issuperset() - checks if an argument set matches completely with a set
+  * isdisjoint() - returns true if 2 sets are unique
+  * copy() - copies a set into another
+  * frozenset() - is an immutable set
+
 ## MODULES
 
 * **sys**
