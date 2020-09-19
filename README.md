@@ -25,12 +25,26 @@
   * copy = list(mylist); copies list into another and prevents mutation
   * squared = [ i * i for i in list]; returns list with squared elements ( i * i == element * element)
 
-## 1. TUPLES ()
+## 2. TUPLES ()
 
 * **Tuple Methods:**
   * tuple( args ) - creates a tuple
   * count( arg1 ) - returns number of matches within a tuple
   * index( arg1 ) - returns index of the first match within a tuple
+
+## 3. DICTIONARY {}
+
+* **Dictionary Methods:**
+  * dict( args ) - creates a dictionary
+  * del - removes a key within a dictionary
+  * pop( arg1 ) - takes a key as an arg and removes/returns it
+  * popitem() - removes and returns last item in a dictionary
+  * keys() - returns keys within a dictionary
+  * values() - returns values within a dictionary
+  * update( arg1 ) - overwrites one dictionary with another
+
+* **Dictionary Functions:**
+  * dict1 = {tuple1: 1}; uses a tuple as a key within a dictionary
 
 ## MODULES
 
