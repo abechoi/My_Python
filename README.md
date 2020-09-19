@@ -1,10 +1,11 @@
 # PYTHON CHEATSHEET
-> *"When you arise in the morning, think of what a precious privilege it is to be alive to breath, to think, to enjoy, to love."*
+> *"When you arise in the morning, think of what a precious privilege it is to be alive - to breath, to think, to enjoy, to love."*
 > *- Marcus Aurelius*
 
 ## 1. LISTS []
 
 * **List Methods:**
+  * list() - creates a list
   * len( arg1 ) - returns length of list
   * append( arg1 ) - appends element
   * insert( position, value ) - inserts value into an element's position
@@ -23,3 +24,18 @@
   * copy = list[:]; copies list into another and prevents mutation
   * copy = list(mylist); copies list into another and prevents mutation
   * squared = [ i * i for i in list]; returns list with squared elements ( i * i == element * element)
+
+## 1. TUPLES ()
+
+* **Tuple Methods:**
+  * tuple( args ) - creates a tuple
+  * count( arg1 ) - returns number of matches within a tuple
+  * index( arg1 ) - returns index of the first match within a tuple
+
+## MODULES
+
+* **sys**
+  * sys.getsizeof( arg1 ) - returns variable's byte size
+
+* **timeit**
+  * timeit.timeit(stmt="arg1", number= arg2 )) - returns time of creation
