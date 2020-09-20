@@ -69,6 +69,31 @@
   * copy() - copies a set into another
   * frozenset() - is an immutable set
 
+## 5. Strings
+
+* **String Methods**
+  * strip() - removes whitespace
+  * upper() - sets string as uppercase
+  * lower() - sets string as lowercase
+  * startswith( arg1 ) - returns True if string starts with the arg
+  * endwith( arg1 ) - returns True if string ends with the arg
+  * find( arg1 ) - returns index of the first match
+  * count( arg1) - returns number of matches with the arg
+  * replace( arg1, arg2 ) - replaces arg1 with arg2
+  * split( arg1 ) - splits apart a string into a list, delimiter is a space by default
+  * join( arg1 ) - converts list into a string
+
+* **String Functions**
+  * "" - creates empty string
+  * """ multiline string """ - creates a multiline string, "\" removes line
+  * myString[0] - returns first character
+  * myString[-1] - returns last character
+  * myString[:5] - returns first 5 characters
+  * myString[::-1] - returns a reversed string
+  * Formatting Strings (Deprecated): "Today is %s's birthday. " %var
+  * Formatting Strings (Deprecated): "The variable is {:.2f} and {:4f}".format(var, pi)
+  * Formatting Strings (Best Practice): f"{var} is my {relationship}"
+
 ## MODULES
 
 * **sys**
