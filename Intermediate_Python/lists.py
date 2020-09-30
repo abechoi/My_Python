@@ -2,7 +2,7 @@
 mylist = ["banana", "cherry", "apple"]
 print(mylist)
 item = mylist[-2]
-print(item)
+print(item) # => cherry
 # forloop
 for i in mylist:
   print(i)
@@ -43,7 +43,7 @@ new_list = mylist + mylist
 print(new_list)
 # slice()
 a = mylist[-3:]
-print(a)
+print(a) # => [3, 4, 5]; from -3 position to end
 # every 2 elements
 a = mylist[::2]
 print(a)
